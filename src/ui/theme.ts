@@ -1,0 +1,43 @@
+export const light = {
+  bg: "#f3f4f6",
+  surface: "#ffffff",
+  text: "#1c2430",
+  muted: "#5d6b7a",
+  border: "#e2e5ea",
+  brand: "#36633d",
+  brandPressed: "#223f27",
+  onBrand: "#ffffff",
+  soft: "#e8ece9",
+  danger: "#9f2d2d",
+  success: "#1b7f45",
+  warning: "#a16207",
+  input: "#ffffff",
+  scrim: "rgba(16, 21, 28, 0.48)",
+  canvas: "#101418",
+  rail: "#1a3020",
+  railMuted: "rgba(244, 250, 245, 0.62)",
+  hinge: "#e4e7ec",
+};
+
+export const dark = {
+  bg: "#171b21",
+  surface: "#222831",
+  text: "#e8edf2",
+  muted: "#a7b3c0",
+  border: "#343c48",
+  brand: "#5ba466",
+  brandPressed: "#53975e",
+  onBrand: "#10151c",
+  soft: "#24302a",
+  danger: "#ffb4b4",
+  success: "#8fd4a8",
+  warning: "#e6c36a",
+  input: "#1b2129",
+  scrim: "rgba(8, 10, 14, 0.62)",
+  canvas: "#0c0f13",
+  rail: "#122016",
+  railMuted: "rgba(244, 250, 245, 0.62)",
+  hinge: "#12161c",
+};
+
+export type Palette = typeof light;

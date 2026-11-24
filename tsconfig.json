@@ -1,0 +1,7 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+  },
+  "exclude": ["src/protocol/protocol.test.ts", "src/ui/fold.test.ts"]
+}
